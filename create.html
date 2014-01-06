@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blubber - New Post</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- HEADER BEGIN -->
+	<header class="top-header">
+		<p class="brand">Blubber</p>
+		<ul class="top-menu">
+			<li><a href="posts.html">Home</a></li>
+			<li><a href="create.html">New Post</a></li>
+		</ul>
+	</header>
+	<!-- HEADER END -->
+
+	<!-- CONTENT BEGIN -->
+	<div class="form">
+		<form action="">
+			<fieldset>
+				<legend>New Blub</legend>
+				<input type="text" id="title" placeholder="Your Blub Title"><br />
+				<textarea type="text" id="content" placeholder="Your Blub here" rows="20" cols="80"></textarea><br />
+				<!-- I think that I was supposed to use a <input type="submit">, however I would need to take care on preveting the default action that the submit type of input does, and other things. It didn't seem like the best solution, a simple button would accomplish the task. -->
+				<button>Blubbe it!</button>
+			</fieldset>
+		</form>
+	</div>
+	<!-- CONTENT END -->
+	<script src="js/jquery-2.0.3.js"></script>
+	<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+	<script src="js/create.js"></script>
+</body>
+</html>

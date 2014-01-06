@@ -1,0 +1,106 @@
+body {
+	background-color: #213944;
+	margin: 0;
+}
+
+.top-header {
+	height: 40px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.top-header p {
+	float: left;
+	width: 68px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.top-menu {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.top-menu li {
+	float: left;
+	padding: 6px;
+}
+
+.top-menu li a:link, a:visited {
+	display: block;
+	color: #B34C09;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0;
+	padding: 6px;
+}
+
+.brand {
+	font-family: Arial;
+	font-weight: bold;
+	color: #8A9907;
+	padding: 0;
+	margin: 0;
+}
+
+/*FORM BEGIN*/
+.form {
+	margin: 0 auto;
+	width: 50%;
+}
+
+fieldset {
+	border: 1px solid #5EA097;
+}
+
+.form legend {
+	font-family: Arial;
+	font-weight: bold;
+	color: #5188D1;
+	border-color: #8A9907;
+}
+
+.form p {
+	padding: 0;
+}
+
+.form input, textarea, button {
+	display: block;
+	margin: 0 auto;
+}
+/*FORM END*/
+
+/*POSTS BEGIN*/
+.posts {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+.posts ul {
+	list-style-type: none;
+
+}
+
+.posts h4 {
+	color: #5188D1;
+	text-align: center;
+	font-family: Arial;
+	font-size: 18pt;
+}
+
+.the-post {
+	color: #AA8900;
+	font-family: Arial;
+	font-size: 14pt;
+}
+
+.current-date {
+	color: #96A0A0;
+	font-family: Arial;
+	font-size: 12pt;
+}
+/*POSTS END*/
