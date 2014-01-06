@@ -55,6 +55,7 @@ body {
 
 fieldset {
 	border: 1px solid #5EA097;
+	margin-bottom: 40px;
 }
 
 .form legend {
